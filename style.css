@@ -1,0 +1,268 @@
+/*#region global*/
+
+@font-face {
+    font-family: "Overlock SC";
+    src: url("../fonts/OverlockSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Alba";
+    src: url("../fonts/Alba.ttf");
+}
+
+@font-face {
+    font-family: "Alba Super";
+    src: url("../fonts/AlbaSuper.ttf");
+}
+
+@font-face {
+    font-family: "Itim";
+    src: url("../fonts/Itim-Regular.ttf");
+}
+
+ul {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    min-width: 900px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+/*#endregion global*/
+
+/*#region Header*/
+
+#header {
+    font-family: "Overlock SC", sans-serif;
+    height: 185px;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+#top {
+    background-color: #ececec;
+    border-bottom: 1px solid silver;
+}
+
+#top ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#top li:last-child {
+    float: right;
+}
+
+#logoArea {
+    text-align: center;
+}
+
+#main_logo {
+    width: 300px;
+    margin: 20px;
+}
+
+/*#endregion header*/
+
+/*#region NavBar*/
+
+nav {
+    font-family: "Overlock SC", sans-serif;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background-color: #ececec;
+    padding: 10px;
+    border-top: 1px solid #a2a2a2;
+    border-bottom: 1px solid #a2a2a2;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    border-left: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navExclusive {
+    background: #f60;
+    border-right: 1px solid #a2a2a2;
+}
+
+.navExclusive a {
+    color: #ececec;
+}
+
+/*#endregion NavBar*/
+
+/*#region mainBody*/
+
+table#articlesArea {
+    font-weight: 500;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table#articlesArea td {
+    vertical-align: top;
+    padding: 0px;
+}
+
+#Nouveautes {
+    width: 250px;
+    background-color: #f3f3f3;
+    border-right: 1px solid #a2a2a2;
+}
+
+#Nouveautes ul, #videos ul {
+    padding: 0px;
+}
+
+#Nouveautes li {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+}
+
+#Nouveautes .heure {
+    color: #e0272e;
+    line-height: 0px;
+    font-family: Alba;
+}
+
+#mainArticles {
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.articleHeader {
+    margin: 20px;
+    display: inline-block;
+    width: 360px;
+}
+
+.articleHeader img {
+    height: 200px;
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+#videos {
+    width: 200px;
+    background-color: #f3f3f3;
+    border-left: 1px solid #a2a2a2;
+}
+
+#videos li:first-child, #Nouveautes li:first-child {
+    border-bottom: 1px solid #a2a2a2;
+    text-align: center;
+    background-color: #ececec;
+    font-family: "Alba Super";
+    padding: 5px;
+    font-size: 16px;
+    /* OR font-size: inherit; We don't want this to be like fellow <li>, so reset to the value inherited */
+    list-style-type: none;
+}
+
+#videos .video {
+    margin: 20px;
+    text-align: center;
+    border-bottom: 1px solid #a2a2a2;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+#videos .video img {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+    border-radius: 10px;
+}
+
+/*#endregion mainBody*/
+
+/*#region Footer*/
+
+#footer {
+    background-color: #f3f3f3;
+    border-top: 1px solid #a2a2a2;
+    text-align: right;
+    font-family: "Open Sans";
+    padding: 10px;
+    font-size: 13px;
+}
+
+/*#endregion footer*/
+
+/*#region MainArticleBody*/
+
+article {
+    margin: 40px;
+    text-align: justify;
+}
+
+article p {
+    font-weight: 400;
+}
+
+#articleImage {
+    text-align: center;
+    font-size: 13px;
+    color: #939393;
+}
+
+#articleImage img {
+    width: 80%;
+    max-width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+#dateArticle {
+    margin-top: 20px;
+    color: #939393;
+    font-size: 11px;
+}
+
+#dateArticle span {
+    float: right;
+}
+
+blockquote {
+    background-color: #f7f7f7;
+    border-left: 10px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Itim";
+    font-size: 18px;
+}
+
+q {
+    font-weight: 500;
+    font-family: "Itim";
+    font-size: 18px;
+}
+
+abbr {
+    text-decoration-line: none;
+    color: #949494;
+}
+
+/*#endregion MainArticleBody*/
