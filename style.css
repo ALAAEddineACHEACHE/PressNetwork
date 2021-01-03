@@ -2,27 +2,27 @@
 
 @font-face {
     font-family: "Overlock SC";
-    src: url("../fonts/OverlockSC-Regular.ttf");
+    src: url("OverlockSC-Regular.ttf");
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url("../fonts/OpenSans-SemiBold.ttf");
+    src: url("OpenSans-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "Alba";
-    src: url("../fonts/Alba.ttf");
+    src: url("Alba.ttf");
 }
 
 @font-face {
     font-family: "Alba Super";
-    src: url("../fonts/AlbaSuper.ttf");
+    src: url("AlbaSuper.ttf");
 }
 
 @font-face {
     font-family: "Itim";
-    src: url("../fonts/Itim-Regular.ttf");
+    src: url("Itim-Regular.ttf");
 }
 
 ul {
